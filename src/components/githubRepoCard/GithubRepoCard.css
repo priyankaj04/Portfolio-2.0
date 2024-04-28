@@ -6,6 +6,7 @@
   flex: 1 1 45%;
   border-radius: 10px;
 }
+
 .repo-card-div:hover {
   box-shadow: rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;
 }
@@ -94,10 +95,24 @@
   margin-right: 0px;
 }
 
+.repo-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 1200px) {
   .repo-card-div {
     flex: 1 1 40%;
     border-radius: 10px;
+  }
+
+  .repo-layout {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+    align-items: center;
   }
 }
 
@@ -121,5 +136,11 @@
 
   .repo-creation-date {
     font-size: 14px;
+  }
+
+  .repo-layout {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
   }
 }
