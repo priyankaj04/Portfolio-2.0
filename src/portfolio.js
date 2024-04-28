@@ -537,5 +537,6 @@ export {
   degrees,
   certifications,
   experience,
+  projectsHeader,
   contactPageData,
 };
