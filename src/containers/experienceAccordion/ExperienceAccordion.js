@@ -7,45 +7,19 @@ class ExperienceAccordion extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="experience-accord">
-        <Accordion>
-          {this.props.sections.map((section) => {
+      <div className="experience-accord" style={{ width: "100%" }}>
+        {this.props.sections.map((section) => {
+          return section["experiences"].map((experience, index) => {
             return (
-              <Panel
-                className="accord-panel"
-                title={section["title"]}
-                key={section["title"]}
-                overrides={{
-                  Header: {
-                    style: () => ({
-                      backgroundColor: `${theme.body}`,
-                      border: `1px solid`,
-                      borderRadius: `5px`,
-                      borderColor: `${theme.headerColor}`,
-                      marginBottom: `3px`,
-                      fontFamily: "Google Sans Regular",
-                      color: `${theme.text}`,
-                      ":hover": {
-                        color: `${theme.secondaryText}`,
-                      },
-                    }),
-                  },
-                  Content: {
-                    style: () => ({
-                      backgroundColor: `${theme.body}`,
-                    }),
-                  },
-                }}
-              >
-{section["experiences"].map((experience,index) => {
-                  return (
-                    <ExperienceCard index={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
-                  );
-                })}
-              </Panel>
+              <ExperienceCard
+                index={index}
+                totalCards={section["experiences"].length}
+                experience={experience}
+                theme={theme}
+              />
             );
-          })}
-        </Accordion>
+          });
+        })}
       </div>
     );
   }

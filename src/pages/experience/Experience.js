@@ -6,7 +6,7 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-import ExperienceImg from "./ExperienceImg";
+import ExperienceImg from "../../assests/images/aboutexperience.svg";
 
 // const experience = {
 // 	title: "Experience",
@@ -148,7 +148,7 @@ class Experience extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="experience-main">
+      <div className="experience-main" style={{ width: "100vw" }}>
         <Header theme={theme} />
         <div className="basic-experience">
           <Fade bottom duration={2000} distance="40px">
@@ -158,18 +158,18 @@ class Experience extends Component {
 									src={require(`../../assests/images/${experience["header_image_path"]}`)}
 									alt=""
 								/> */}
-                <ExperienceImg theme={theme} />
+                <img src={ExperienceImg} alt="Experience" />
               </div>
               <div className="experience-heading-text-div">
                 <h1
                   className="experience-heading-text"
-                  style={{ color: theme.text }}
+                  style={{ color: "#8b5cf6" }}
                 >
                   {experience.title}
                 </h1>
                 <h3
                   className="experience-heading-sub-text"
-                  style={{ color: theme.text }}
+                  style={{ color: "#ddd6fe" }}
                 >
                   {experience["subtitle"]}
                 </h3>
