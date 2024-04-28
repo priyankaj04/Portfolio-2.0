@@ -40,9 +40,12 @@ class Header extends Component {
                 <NavLink
                   to="/home"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "2px solid #8b5cf6",
+                  }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseEnter={(event) => onMouseEnter(event, "#8b5cf6")}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Home
@@ -52,9 +55,12 @@ class Header extends Component {
                 <NavLink
                   to="/education"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "2px solid #8b5cf6",
+                  }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseEnter={(event) => onMouseEnter(event, "#8b5cf6")}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Education
@@ -64,9 +70,12 @@ class Header extends Component {
                 <NavLink
                   to="/experience"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "2px solid #8b5cf6",
+                  }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseEnter={(event) => onMouseEnter(event, "#8b5cf6")}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Experience
@@ -76,9 +85,12 @@ class Header extends Component {
                 <NavLink
                   to="/projects"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "2px solid #8b5cf6",
+                  }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseEnter={(event) => onMouseEnter(event, "#8b5cf6")}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Projects
@@ -88,9 +100,12 @@ class Header extends Component {
                 <NavLink
                   to="/opensource"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "2px solid #8b5cf6",
+                  }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseEnter={(event) => onMouseEnter(event, "#8b5cf6")}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Open Source
@@ -100,9 +115,12 @@ class Header extends Component {
                 <NavLink
                   to="/contact"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "2px solid #8b5cf6",
+                  }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseEnter={(event) => onMouseEnter(event, "#8b5cf6")}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Contact Me

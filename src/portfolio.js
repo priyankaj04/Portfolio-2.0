@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Priyanka J",
   logo_name: "Priyanka J",
-  subTitle: "Full stack developer with 2+ of experience ",
+  subTitle: "Full stack developer with 2+ years of experience ",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
