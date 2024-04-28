@@ -7,7 +7,7 @@ class ExperienceAccordion extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="experience-accord" style={{ width: "100%" }}>
+      <div style={{}}>
         {this.props.sections.map((section) => {
           return section["experiences"].map((experience, index) => {
             return (
