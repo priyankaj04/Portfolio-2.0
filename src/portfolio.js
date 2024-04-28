@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Priyanka's Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  description: "Full stack developer with 2+ years of experience",
   og: {
     title: "Priyanka J Portfolio",
     type: "website",
@@ -40,12 +39,6 @@ const socialMediaLinks = [
     link: "https://www.linkedin.com/in/priyanka-j-687572213",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
@@ -412,8 +405,8 @@ const experience = {
           description: [
             "⚡ Working on Webs, App and Backend projects.",
             "⚡ Integrating with other systems and automating data flow in system.",
+            "⚡ CICD on AWS, looking after codepipeline, scheduler, lambda functions etc.",
             "⚡ Working on crutial features with less to 0 error rate.",
-            "⚡ Everyday evolving 0.1% and getting better.",
           ],
           color: "#ffffff",
         },
@@ -426,9 +419,9 @@ const experience = {
           duration: "October 2022 - June 2023",
           location: "Kormanagala-Blr, KA, IN",
           description: [
-            "⚡ Working on Webs, App and Backend projects.",
-            "⚡ Integrating with other systems and automating data flow in system.",
-            "⚡ Working on crutial features with less to 0 error rate.",
+            "⚡ Constantly solving bugs, fixing errors",
+            "⚡ Working on multiple new features",
+            "⚡ Working with AWS, learning to deploy, uploading to s3 bucket.",
             "⚡ Everyday evolving 0.1% and getting better.",
           ],
           color: "#ffffff",
