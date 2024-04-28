@@ -21,12 +21,13 @@ class ProjectLanguages extends Component {
                 >
                   <li
                     className="software-skill-inline-languages"
-                    name={logo.skillName}
+                    name={logo.name}
                   >
                     <span
                       className="iconify"
                       data-icon={logo.iconifyClass}
                       data-inline="false"
+                      // color={logo.style.color ?? 'blue'}
                     ></span>
                   </li>
                 </OverlayTrigger>
