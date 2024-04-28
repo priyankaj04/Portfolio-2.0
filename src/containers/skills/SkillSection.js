@@ -3,18 +3,15 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
+import FullStackImg from "../../assests/images/fullstackdeveloper.svg";
+import CloudInfraImg from "../../assests/images/cloudhosting.svg";
 import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+  if (props.fileName === "FullStackImg")
+    return <img src={FullStackImg} alt="fullstack developer" />;
   else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
+    return <img src={CloudInfraImg} alt="Clouding hosting" />;
   return <DesignImg theme={props.theme} />;
 }
 
@@ -25,7 +22,14 @@ class SkillSection extends Component {
       <div>
         {skills.data.map((skill, i) => {
           return (
-            <div key={i} className="skills-main-div">
+            <div
+              key={i}
+              className="skills-main-div"
+              style={{
+                borderBottom:
+                  i < skills.data.length - 1 ? "1px solid #57534e" : "none",
+              }}
+            >
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   {/* <img
@@ -36,7 +40,7 @@ class SkillSection extends Component {
                 </div>
               </Fade>
 
-              <div className="skills-text-div">
+              <div className="skills-text-div" style={{ alignSelf: "center" }}>
                 <Fade right duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}

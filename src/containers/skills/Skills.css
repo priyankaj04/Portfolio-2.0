@@ -17,6 +17,7 @@
 .skills-text-div {
   margin-left: 50px;
   font-family: "Google Sans Regular";
+  align-items: center;
 }
 
 .skills-main-div > * {
