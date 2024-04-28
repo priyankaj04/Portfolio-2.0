@@ -4,14 +4,32 @@ import Footer from "../../../components/footer/Footer";
 import TopButton from "../../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import "./Error.css";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 
 export default class Error extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      redirect: false,
+    };
+  }
+
+  componentDidMount() {
+    this.id = setTimeout(() => this.setState({ redirect: true }), 3000);
+  }
+
+  componentWillMount() {
+    clearTimeout(this.id);
+  }
+
   render() {
     const theme = this.props.theme;
-    return (
+    return this.state.redirect ? (
+      <Redirect to="/home" />
+    ) : (
       <div className="error-main">
         <Header theme={this.props.theme} />
+        <Redirect to="/home" />
         <div className="error-class">
           <Fade bottom duration={2000} distance="40px">
             <h1>Woops</h1>
