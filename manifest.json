@@ -1,0 +1,8 @@
+{
+  "name": "Priyanka Portfolio",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "short_name": "Priyanka Portfolio",
+  "start_url": ".",
+  "theme_color": "#000000"
+}
