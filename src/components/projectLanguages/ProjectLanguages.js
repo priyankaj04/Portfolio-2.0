@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./ProjectLanguages.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import nextjs from "../../assests/images/nextjs.svg";
 
 class ProjectLanguages extends Component {
   render() {
@@ -23,12 +24,11 @@ class ProjectLanguages extends Component {
                     className="software-skill-inline-languages"
                     name={logo.name}
                   >
-                    <span
-                      className="iconify"
-                      data-icon={logo.iconifyClass}
-                      data-inline="false"
-                      // color={logo.style.color ?? 'blue'}
-                    ></span>
+                    <img
+                      src={require(`../../assests/icons/${logo.name}.svg`)}
+                      style={{ width: 35 }}
+                      alt={logo.name}
+                    />
                   </li>
                 </OverlayTrigger>
               );

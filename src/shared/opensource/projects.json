@@ -8,26 +8,30 @@
       "description": [
         "⚡ It's a Full-stack App.",
         "⚡ Implemented mainly 4 logins, students, Company HR, College HOD and Admin",
-        "⚡ Students updates their details and create resume on app and apply to on-campus placements.",
-        "⚡ Company HR uploads job, reviews applicants and then schedules interview with selected profiles.",
         "⚡ Entire Campus Placement made online, made available, made easy for everyone within campus"
       ],
       "isFork": false,
       "languages": [
         {
-          "name": "ReactJS",
+          "name": "ReactNative",
           "iconifyClass": "simple-icons:react",
           "style": {
             "color": "#61DAFB"
           }
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "Node",
+          "iconifyClass": "devicon-plain:nodejs-wordmark",
+          "style": {
+            "color": "#339933"
+          }
         },
         {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
+          "name": "PostgreSQL",
+          "iconifyClass": "simple-icons:postgresql",
+          "style": {
+            "color": "#336791"
+          }
         }
       ]
     },
@@ -44,8 +48,13 @@
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "NextJS"
+        },
+        {
+          "name": "GraphQL"
+        },
+        {
+          "name": "Tailwind"
         }
       ]
     },
@@ -62,20 +71,16 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Typescript"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "NextJS"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "MongoDB"
         },
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "Stripe"
         }
       ]
     },
@@ -91,12 +96,7 @@
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "ReactNative"
         }
       ]
     }
