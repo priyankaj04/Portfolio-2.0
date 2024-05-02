@@ -8,7 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Priyanka's Portfolio",
-  description: "Full stack developer with 2+ years of experience",
+  description: "SDE with 2+ years of experience",
   og: {
     title: "Priyanka J Portfolio",
     type: "website",
@@ -20,7 +20,7 @@ const seo = {
 const greeting = {
   title: "Priyanka J",
   logo_name: "Priyanka J",
-  subTitle: "Full stack developer with 2+ years of experience ",
+  subTitle: "SDE with 2+ years of experience ",
   resumeLink:
     "https://drive.google.com/file/d/1wYc9YzSDRo-mRxv2TnUYyMoWtp4dEPjv/view?usp=drive_link",
   portfolio_repository: "https://github.com/priyankaj04/Portfolio-2.0",
@@ -57,7 +57,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Full Stack Software Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
@@ -274,7 +274,7 @@ const degrees = {
 const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
-  description: `I'm explorer, I never tell "NO" to new to new challenges. I can handle multiple project at a time.`,
+  description: `I'm explorer, I never tell "NO" to new challenges. I can handle multiple project at a time.`,
   header_image_path: "experience.svg",
   sections: [
     {
@@ -282,7 +282,7 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Full Stack Developer",
+          title: "SDE I",
           company: "Circle Health",
           company_url: "https://circlehealth.in/",
           logo_path:
