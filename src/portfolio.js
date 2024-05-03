@@ -293,7 +293,7 @@ const experience = {
             "⚡ Working on Webs, App and Backend projects.",
             "⚡ Integrating with other systems and automating data flow in system.",
             "⚡ CICD on AWS, looking after codepipeline, scheduler, lambda functions etc.",
-            "⚡ Working on crutial features with less to 0 error rate.",
+            "⚡ Working on crucial features with less to 0 error rate.",
           ],
           color: "#ffffff",
         },

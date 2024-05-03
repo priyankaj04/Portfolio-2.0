@@ -5,7 +5,7 @@ import { Fade } from "react-reveal";
 import blog from "../../assests/images/1.png";
 import crms from "../../assests/images/2.png";
 import event from "../../assests/images/3.png";
-import hrdash from "../../assests/images/4.png";
+import hrdash from "../../assests/images/4.svg";
 
 export default function GithubRepoCard({ repo, theme, index }) {
   function openRepoinNewTab(url) {

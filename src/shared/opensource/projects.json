@@ -60,13 +60,12 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Event Organizing Platform",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/priyankaj04/event-managment",
+      "name": "Brainwave",
+      "createdAt": "2024-04-29T16:26:54Z",
+      "url": "https://github.com/priyankaj04/Brainwave",
       "description": [
         "⚡ A Full Stack Web Application",
-        "⚡ Built in Nextjs, Typescript, Stripe",
-        "⚡ Clerk is used for authentictio, CRUD functionalities added for events, search bar and many more features are added"
+        "⚡ AI Saas Application, using openAI and replicate AI for chat, image, video and music generation."
       ],
       "isFork": false,
       "languages": [
@@ -77,7 +76,7 @@
           "name": "NextJS"
         },
         {
-          "name": "MongoDB"
+          "name": "Prisma"
         },
         {
           "name": "Stripe"
@@ -86,17 +85,33 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "HR Dashboard App",
+      "name": "Circle Health Admin",
       "createdAt": "2024-04-28T08:31:51Z",
-      "url": "https://github.com/circlehealth/circlePiApp",
+      "url": "https://github.com/circlehealth",
       "description": [
-        "⚡ Front end Application for Circle Health.",
-        "⚡ HR dashboard shows analytics, and employees details"
+        "⚡ Centeralized backend system.",
+        "⚡ Working on various APIs, Integration with other systems, CICD etc",
+        "⚡ Handling complex health analysis, automation of WA messages, Emails.",
+        "⚡ Handling entirely more than 10+ projects with fast delivery and less error rate.",
+        "⚡ Currenly working on 4+ projects simultaneously.",
+        "⚡ Handling Complete projects like, Lead managment system, Endorsement Dashboard, CareManagers Admin panel,Integrating DB with other systems and much more. "
       ],
       "isFork": false,
       "languages": [
         {
-          "name": "ReactNative"
+          "name": "Node"
+        },
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "Supabase"
+        },
+        {
+          "name": "Sentry"
+        },
+        {
+          "name": "AWS"
         }
       ]
     }
