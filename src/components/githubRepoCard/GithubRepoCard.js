@@ -58,6 +58,7 @@ export default function GithubRepoCard({ repo, theme, index }) {
             />
             {repo.description?.map((item, i) => (
               <p
+                title={item}
                 key={i}
                 className="repo-description"
                 style={{ color: theme.text }}
