@@ -287,7 +287,7 @@ const experience = {
           company_url: "https://circlehealth.in/",
           logo_path:
             "https://assets-global.website-files.com/62ecdc7c0a7ec384d8d9270b/62ef6b59caeb354daee576bb_Favicon.png",
-          duration: "September 2023 - Present",
+          duration: "August 2023 - Present",
           location: "Kormanagala-Blr, KA, IN",
           description: [
             "⚡ Working on Webs, App and Backend projects.",
@@ -303,7 +303,7 @@ const experience = {
           company_url: "https://circlehealth.in/",
           logo_path:
             "https://assets-global.website-files.com/62ecdc7c0a7ec384d8d9270b/62ef6b59caeb354daee576bb_Favicon.png",
-          duration: "October 2022 - June 2023",
+          duration: "August 2022 - June 2023",
           location: "Kormanagala-Blr, KA, IN",
           description: [
             "⚡ Constantly solving bugs, fixing errors",
