@@ -22,7 +22,7 @@ const greeting = {
   logo_name: "Priyanka J",
   subTitle: "SDE with 2+ years of experience ",
   resumeLink:
-    "https://drive.google.com/file/d/1wYc9YzSDRo-mRxv2TnUYyMoWtp4dEPjv/view?usp=drive_link",
+    "https://drive.google.com/file/d/1qKMWqkG3phJWzxczTX3huzeUnJ-wR_pH/view",
   portfolio_repository: "https://github.com/priyankaj04/Portfolio-2.0",
   githubProfile: "https://github.com/priyankaj04",
 };
