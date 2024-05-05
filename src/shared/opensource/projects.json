@@ -65,7 +65,8 @@
       "url": "https://github.com/priyankaj04/Brainwave",
       "description": [
         "⚡ A Full Stack Web Application",
-        "⚡ AI Saas Application, using openAI and replicate AI for chat, image, video and music generation."
+        "⚡ AI Saas Application, using openAI and replicate AI for chat, image, video and music generation.",
+        "⚡ Used prisma mainly to store points for free convo. added subscription payment method."
       ],
       "isFork": false,
       "languages": [
