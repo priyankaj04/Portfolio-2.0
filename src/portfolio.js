@@ -12,7 +12,7 @@ const seo = {
   og: {
     title: "Priyanka J Portfolio",
     type: "website",
-    url: "http://priyankaj.com/",
+    url: "https://priyankaj04.github.io/Portfolio-2.0/#/",
   },
 };
 
