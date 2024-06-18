@@ -22,7 +22,7 @@ const greeting = {
   logo_name: "Priyanka J",
   subTitle: "SDE with 2+ years of experience ",
   resumeLink:
-    "https://drive.google.com/file/d/1sYz8piCTsZM9I-JvvjrnIDsJJFhEEcz2/view?usp=sharing",
+    "https://drive.google.com/file/d/1qKMWqkG3phJWzxczTX3huzeUnJ-wR_pH/view?usp=sharing",
   portfolio_repository: "https://github.com/priyankaj04/Portfolio-2.0",
   githubProfile: "https://github.com/priyankaj04",
 };
@@ -151,31 +151,16 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Hosting and maintaining websites on AWS services",
+        "⚡ Using schedulers and lambda functions for notifying",
+        "⚡ Using schedulers and lambda functions for notifying",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
           },
         },
         {
@@ -211,13 +196,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
           },
         },
       ],
