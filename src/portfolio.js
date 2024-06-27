@@ -22,7 +22,7 @@ const greeting = {
   logo_name: "Priyanka J",
   subTitle: "SDE with 2+ years of experience ",
   resumeLink:
-    "https://drive.google.com/file/d/1qKMWqkG3phJWzxczTX3huzeUnJ-wR_pH/view?usp=sharing",
+    "https://drive.google.com/file/d/1tMbCstkStb6-ojX13fh4AEc5xAkh9-1-/view?usp=sharing",
   portfolio_repository: "https://github.com/priyankaj04/Portfolio-2.0",
   githubProfile: "https://github.com/priyankaj04",
 };
@@ -151,9 +151,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Hosting and maintaining websites on AWS services",
-        "⚡ Using schedulers and lambda functions for notifying",
-        "⚡ Using schedulers and lambda functions for notifying",
+        "⚡ Hosting and maintaining websites using AWS services",
+        "⚡ Utilizing schedulers and Lambda functions for notifications",
+        "⚡ Managing CodePipeline for daily code deployments.",
       ],
       softwareSkills: [
         {
